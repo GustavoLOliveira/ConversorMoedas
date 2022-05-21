@@ -3,22 +3,25 @@
 
 <head>
   <title>só um teste</title>
+  <link rel="stylesheet" href="assets/style.css">
   <meta charset="utf-8">
 </head>
 
 <body>
-  <input type="text" placeholder="Valor para conversão:" list="paises" id="valorEntrada" onkeyup="capturar()">
-  <select id="entrada">
-    <option value="4.87" id="dolarAmericano">Dolar americano</option>
-    <option value="3.79"id="dolarCanadense">Dolar Canadense</option>
-    <option value="1.00" id="real">Real</option>
-    <option value="5.13" id="euro">Euro</option>
-    <option value="6.07" id="Libra">Libra Esterlina</option>
-  </select>
+  <div id="container">
+   <input type="text" placeholder="Valor para conversão:" list="paises" id="valorEntrada" onkeyup="capturar()">
+   <select id="entrada">
+      <option value="4.87" id="dolarAmericano"><span><img src="assets/img/bandeira-estados-unidos.png" alt="" class="flags"></span><span>Dolar americano</span></option>
+      <option value="3.79"id="dolarCanadense">Dolar Canadense</option>
+      <option value="1.00" id="real">Real</option>
+      <option value="5.13" id="euro">Euro</option>
+      <option value="6.07" id="Libra">Libra Esterlina</option>
+    </select>
 
-  <p id="resultado"></p>
+    <p id="resultado"></p>
+  </div>
 
-  <script src="main.js"></script>
+  <script src="assets/main.js"></script>
 </body>
 
 </html>
