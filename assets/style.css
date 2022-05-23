@@ -22,8 +22,18 @@ body {
     width: 25px;
     height: 25px;
     border-radius: 5px;
+    background-image: url(../assets/img/bandeira-estados-unidos.png);
 }
 
-option {
+select {
     width: 200px;
+    /* height: 15px; */
+    padding: 15px;
+    border-radius: 25px;
+}
+
+input {
+    border-radius: 25px;
+    height: 15px;
+    padding: 15px;
 }
