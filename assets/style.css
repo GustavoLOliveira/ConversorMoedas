@@ -16,7 +16,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .flags {
@@ -40,7 +40,7 @@ input {
 }
 
 .texto {
-    color: red;
+    color: #FFFFFF;
     font-size: 46px;
     margin-top: 100px;
 }
